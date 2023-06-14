@@ -31,6 +31,9 @@ Run the program to move the robot
 
 ## Program
 ```
+#Developed by: Deepika.S
+#Register number: 212222230028
+
 from robomaster import robot
 import time
 from robomaster import camera
