@@ -8,37 +8,29 @@ To develop a python control code to move the mobilerobot along the predefined pa
 2. Python 3.7
 
 ## Procedure
-
 ### Step1:
-
 Import the required packages
-
 ### Step2:
-
-Assign the value for X axis and Y axis
-
+Assign the value for X axis and Y axis 
 ### Step3:
-
-Write the program to move the Robot
-
+write the program to move the Robot
 ### Step4:
-
 Write the program to record video
-
 ### Step5:
-
 Run the program to move the robot
+
+
 
 ## Program
 ```
-#Developed by: Deepika.S
+#Developed by: Deepika S
 #Register number: 212222230028
 
 from robomaster import robot
 import time
 from robomaster import camera
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     ep_robot = robot.Robot()
     ep_robot.initialize(conn_type="ap")
 
@@ -105,28 +97,21 @@ ep_camera.stop_video_stream()
 print("Stopped video streaming.....")
 ep_robot.close()
 ```
-## MobileRobot Movement Image:
 
-![robo](./img/robomaster.png)
-
-Insert image here
+    
 
 
-<br/>
-<br/>
-<br/>
-<br/>
+## MobileRobot Movement IMAGE:
+## INITIAL POSITION:
+![STARTING POINT](https://github.com/abinayasangeetha/mobilerobot-openloopcontrol/assets/119393675/22963d5c-1e81-456e-9469-a274d19c6e7d)
+
+
+## FINAL POSITION:
+
+![ENDING POINT](https://github.com/abinayasangeetha/mobilerobot-openloopcontrol/assets/119393675/37031dc1-e19b-4921-a1fa-be5389d364bb)
 
 ## MobileRobot Movement Video:
-
-Upload your video in Youtube and paste your video-id here
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
-<br/>
-<br/>
-<br/>
-<br/>
+https://youtu.be/xkAumdRbGyU 
 
 ## Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
