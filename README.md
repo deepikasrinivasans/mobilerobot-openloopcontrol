@@ -11,23 +11,23 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 Step1:
 
-<br/>
+Import the required packages
 
 Step2:
 
-<br/>
+Assign the value for X axis and Y axis
 
 Step3:
 
-<br/>
+Write the program to move the Robot
 
 Step4:
 
-<br/>
+Write the program to record video
 
 Step5:
 
-<br/>
+Run the program to move the robot
 
 ## Program
 ```python
